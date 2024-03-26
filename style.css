@@ -1,0 +1,35 @@
+body,
+body * {
+    margin:0;
+    padding:0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #faebd7;
+
+    font-size: 24px;
+}
+
+#rez {
+    color: #d3d3d3;
+    text-align: center;
+    font-size: 40px;
+}
+
+.card-header {
+    text-align: center;
+    color: #545454;
+}
+
+.form-label {
+    color: #545454;
+}
+
+.form-control::placeholder {
+    color: lightgray;
+}
+
+
