@@ -7,6 +7,10 @@ const rez = document.getElementById("rez");
 const skaiciuoti = () => {
     const w = weight.valueAsNumber;
     const h = height.valueAsNumber;
+    if (w < 0 || h < 0) {
+        rez.innerHTML = 'Įvesti netinkami duomenys';
+        // break;
+    }
     const kmi = (w / ((h / 100) ** 2)).toFixed(1);
     rez.innerHTML = `KMI: ${kmi}`;
     if (kmi < 18.5) {
@@ -28,6 +32,11 @@ const skaiciuoti = () => {
         document.body.style.backgroundColor = "#faebd7";
         rez.style.color = "#d3d3d3";
         rez.innerHTML = 'KMI: ???';
+    }
+    if (w < 0 || h < 30) {
+        document.body.style.backgroundColor = "#faebd7"
+        rez.innerHTML = 'Netinkamai įvesti duomenys';
+        rez.style.color = "#d3d3d3";
     }
 }
 
