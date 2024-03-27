@@ -46,6 +46,5 @@ const reset = () => {
     skaiciuoti();
 }
 
-
 btn.onclick = skaiciuoti;
 resetbtn.onclick = reset;
