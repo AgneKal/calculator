@@ -8,12 +8,13 @@ BMI calculator
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://agnekal.github.io/BMIcalculator/
+Site published at: https://agnekal.github.io/calculator/
 
 ## 🎯 Project features/goals
 
 -   Bootstrap
 -   Github pages
+-   DOM
 
 ## 🧰 Getting Started
 
