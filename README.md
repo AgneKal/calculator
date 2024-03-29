@@ -12,7 +12,6 @@ Site published at: https://agnekal.github.io/calculator/
 
 ## 🎯 Project features/goals
 
--   Bootstrap
 -   Github pages
 -   DOM
 
